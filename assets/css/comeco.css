@@ -1,0 +1,47 @@
+
+
+div.text, .supernova{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20000;
+    
+}
+
+div.text{
+    background: linear-gradient(0deg, hsl(334, 55%, 18%) 0%, rgb(14, 14, 26) 50%);
+    color: white;
+}
+
+p.text{
+    text-align: center;
+    height: 100px;
+    width: 80%;
+
+}
+
+.prompt{
+    color: white;
+    font-size: 1em;
+    padding: 0.4em 0.8em;
+    border-radius: 100vw;
+    background-color: #FF1276;
+    border: none;
+    outline: none;
+    transition: 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.prompt:hover{
+    transform: scale(1.15);
+}
+
+.prompt:focus-visible{
+    transition: 0s;
+    outline: 2px solid var(--main-color);
+    outline-offset: 4px;
+}
