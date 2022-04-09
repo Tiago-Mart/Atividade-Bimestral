@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var audio = document.createElement('audio');
-    audio.setAttribute('src', 'assets/audios/01 - Timber Hearth.mp3')
+    audio.setAttribute('src', 'assets/audios/1 - Firewatch OST - Prologue.mp3')
     
 
     $("div.resto").hide();
